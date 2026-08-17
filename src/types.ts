@@ -40,6 +40,7 @@ export interface Testimonial {
 }
 
 export interface MerchantKYCInfo {
+  brandName: string;
   merchantName: string;
   registeredAddress: string;
   supportEmail: string;

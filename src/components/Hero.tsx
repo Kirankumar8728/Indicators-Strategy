@@ -60,7 +60,7 @@ export const Hero: React.FC<HeroProps> = ({
           <div className="lg:col-span-7 space-y-6 text-center lg:text-left">
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-gradient-to-r from-amber-500/10 to-yellow-500/10 border border-amber-500/30 text-amber-300 text-xs font-semibold uppercase tracking-wider shadow-sm">
               <Sparkles className="w-3.5 h-3.5 text-amber-400" />
-              <span>Full Video Masterclass Series</span>
+              <span>{MERCHANT_INFO.brandName} • Full Video Masterclass Series</span>
             </div>
 
             <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold text-white tracking-tight leading-[1.14]">

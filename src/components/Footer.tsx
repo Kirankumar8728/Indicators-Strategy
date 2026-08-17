@@ -23,7 +23,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigatePolicy, onOpenCheckout
                 </div>
               </div>
               <span className="font-extrabold text-sm text-white tracking-tight">
-                Advanced Trading Indicators
+                {MERCHANT_INFO.brandName}
               </span>
             </div>
 

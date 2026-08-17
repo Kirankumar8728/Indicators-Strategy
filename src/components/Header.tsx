@@ -33,13 +33,13 @@ export const Header: React.FC<HeaderProps> = ({
             </div>
             <div>
               <div className="text-sm sm:text-base font-extrabold text-white tracking-tight flex items-center gap-1.5">
-                <span>Advanced Trading Indicators</span>
-                <span className="text-[10px] bg-amber-500/20 text-amber-300 font-semibold px-1.5 py-0.5 rounded border border-amber-500/30">
-                  PRO
+                <span>{MERCHANT_INFO.brandName}</span>
+                <span className="text-[10px] bg-amber-500/20 text-amber-300 font-bold px-1.5 py-0.5 rounded border border-amber-500/30">
+                  OFFICIAL
                 </span>
               </div>
               <p className="text-[11px] text-slate-400 leading-none">
-                Masterclass by <span className="text-slate-300 font-medium">{MERCHANT_INFO.merchantName}</span>
+                Trading Masterclass by <span className="text-slate-300 font-medium">{MERCHANT_INFO.merchantName}</span>
               </p>
             </div>
           </button>

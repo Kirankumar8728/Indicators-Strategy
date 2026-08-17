@@ -1,6 +1,7 @@
 import { MerchantKYCInfo, Module, FAQItem, Testimonial } from '../types';
 
 export const MERCHANT_INFO: MerchantKYCInfo = {
+  brandName: "Xmaster Pro",
   merchantName: "Kiran Kumar",
   registeredAddress: "JNTU, Hyderabad, Telangana, India",
   supportEmail: "support@dealsbomma.in",
